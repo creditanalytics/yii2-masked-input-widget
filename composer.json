@@ -1,0 +1,30 @@
+{
+    "name": "creditanalytics/yii2-masked-input-widget",
+    "description": "Yii2 component for masked input",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "masked", "jquery"],
+    "license": "MIT",
+    "version": "0.1.0",
+    "authors": [
+        {
+            "name": "Dmitriy Bushin",
+            "email": "dima.bushin@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/jquery-mask-plugin": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "creditanalytics\\widgets\\masked\\": "src"
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
